@@ -1,34 +1,34 @@
 # ShortSwiftUI
 World's Shortest SwiftUI
-SCROLLVIEW IN SWIFTUI
-LIST IN SWIFTUI
-TEXT IN SWIFTUI
-BUTTON IN SWIFTUI
-TEXTFIELD IN SWIFTUI
-STATE IN SWIFTUI
-SYSTEM NAMED IMAGES IN SWIFTUI
-RESIZEABLE IMAGE IN SWIFTUI
-COLOR IN SWIFTUI
-SPACER IN SWIFTUI
-PADDING IN SWIFTUI
-FOREGROUND STYLE IN SWIFTUI
-BACKGROUND IN SWIFTUI
-OVERLAY IN SWIFTUI
-FONT IN SWIFTUI
-ON APPEAR IN SWIFTUI
-NAVIGATION STACK IN SWIFTUI
-NAVIGATIONTITLE IN SWIFTUI
-TOOLBAR WITH TOOLBAR ITEM IN SWIFTUI
-PRESENT A SHEET IN SWIFTUI
-DISMISS VIEW IN SWIFTUI
-MODEL FROM MVVM IN SWIFTUI
-OBSERVABLE SERVICE IN SWIFTUI
-FETCH POSTS WITH URLSESSION IN SWIFTUI
-ENVIRONMENT IN SWIFTUI
-ACCESS ENVIRONMENT IN SWIFTUI
-PUT BUSINESS LOGIC IN SERVICE
-BINDABLE IN SWIFTUI
-TASK IN SWIFTUI
-LIST WITH FOREACH IN SWIFTUI
-CUSTOM CELL FOR LIST IN SWIFTUI
-NAVIGATION LINK IN SWIFTUI
+ScrollView in SwiftUI
+List in SwiftUI
+Text in SwiftUI
+Button in SwiftUI
+TextField in SwiftUI
+State in SwiftUI
+System Named Images in SwiftUI
+Resizable Image in SwiftUI
+Color in SwiftUI
+Spacer in SwiftUI
+Padding in SwiftUI
+Foreground Style in SwiftUI
+Background in SwiftUI
+Overlay in SwiftUI
+Font in SwiftUI
+onAppear in SwiftUI
+Navigation Stack in SwiftUI
+NavigationTitle in SwiftUI
+Toolbar with Toolbar Item in SwiftUI
+Present a Sheet in SwiftUI
+Dismiss View in SwiftUI
+Model from MVVM in SwiftUI
+Observable Service in SwiftUI
+Fetch Posts with URLSession in SwiftUI
+Environment in SwiftUI
+Access Environment in SwiftUI
+Put Business Logic in Service
+Bindable in SwiftUI
+Task in SwiftUI
+List with ForEach in SwiftUI
+Custom Cell for List in SwiftUI
+Navigation Link in SwiftUI
