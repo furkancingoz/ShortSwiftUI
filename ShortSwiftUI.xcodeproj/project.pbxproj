@@ -11,6 +11,10 @@
 		655F81332AF63C1E007C494E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F81322AF63C1E007C494E /* ContentView.swift */; };
 		655F81352AF63C1F007C494E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655F81342AF63C1F007C494E /* Assets.xcassets */; };
 		655F81382AF63C1F007C494E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655F81372AF63C1F007C494E /* Preview Assets.xcassets */; };
+		655F813F2AF644B3007C494E /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F813E2AF644B3007C494E /* DestinationView.swift */; };
+		655F81412AF647EA007C494E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F81402AF647EA007C494E /* Post.swift */; };
+		655F81432AF648D8007C494E /* AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F81422AF648D8007C494E /* AppService.swift */; };
+		65E85E052AF6545400390134 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E85E042AF6545400390134 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		655F81322AF63C1E007C494E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		655F81342AF63C1F007C494E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		655F81372AF63C1F007C494E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		655F813E2AF644B3007C494E /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
+		655F81402AF647EA007C494E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		655F81422AF648D8007C494E /* AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
+		65E85E042AF6545400390134 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				655F81302AF63C1E007C494E /* ShortSwiftUIApp.swift */,
 				655F81322AF63C1E007C494E /* ContentView.swift */,
+				655F813E2AF644B3007C494E /* DestinationView.swift */,
+				65E85E042AF6545400390134 /* DetailView.swift */,
+				655F81402AF647EA007C494E /* Post.swift */,
+				655F81422AF648D8007C494E /* AppService.swift */,
 				655F81342AF63C1F007C494E /* Assets.xcassets */,
 				655F81362AF63C1F007C494E /* Preview Content */,
 			);
@@ -137,6 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655F81432AF648D8007C494E /* AppService.swift in Sources */,
+				65E85E052AF6545400390134 /* DetailView.swift in Sources */,
+				655F813F2AF644B3007C494E /* DestinationView.swift in Sources */,
+				655F81412AF647EA007C494E /* Post.swift in Sources */,
 				655F81332AF63C1E007C494E /* ContentView.swift in Sources */,
 				655F81312AF63C1E007C494E /* ShortSwiftUIApp.swift in Sources */,
 			);

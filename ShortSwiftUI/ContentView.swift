@@ -8,17 +8,51 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+  @Environment(AppService.self) var appService
+  var body: some View {
+    VStack{
+      List {
+        ForEach(appService.posts) { post in
+          NavigationLink {
+DetailView(post: post)
+          } label: {
+            cell(post:post)
+          }
         }
-        .padding()
+      }
     }
+    .task {
+      do {
+        try await appService.fetchPost()
+      } catch {
+        print(error.localizedDescription)
+      }
+    }.navigationTitle("SwiftUI")
+      .toolbar(content: {
+        ToolbarItem(placement: .primaryAction) {
+          Button(action: {
+            appService.isDestinationViewPresented.toggle()
+          }, label: {
+            Image(systemName: "chevron.right")
+          })
+        }
+      })
+      .sheet(isPresented: Bindable(appService).isDestinationViewPresented, content: {
+        DestinationView()
+      })
+  }
+  func cell(post: Post) -> some View {
+    VStack(alignment: .leading, content: {
+      Text(post.title)
+      Text(post.body)
+        .foregroundStyle(.gray)
+        .font(.caption)
+    })
+  }
 }
 
 #Preview {
+  NavigationView{
     ContentView()
+  }
 }
